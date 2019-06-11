@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="new_user"><u>New User?</u></string>
+</resources>

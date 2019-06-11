@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#0000FF"/>
+
+    <LinearLayout
+        android:background="#66cdaa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_add_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD EXPENSE"/>
+        <Button
+            android:id="@+id/button_view_expense"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW EXPENSE"/>
+    </LinearLayout>
+</LinearLayout>
